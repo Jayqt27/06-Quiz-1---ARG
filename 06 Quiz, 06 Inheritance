@@ -1,0 +1,13 @@
+1. Select the four (4) statements that can be inserted at line n1. (3 pts. each)
+The four statements that can be inserted at line n1 are:
+employee.salary = 50000;
+director.salary = 80000;
+employee.budget = 20000;
+manager.budget = 100000;
+These statements are all valid assignments to variables that are declared in the class definitions above. The other two statements, manager.stockOptions = 500; and
+director.stockOptions = 1000;, cannot be inserted at line n1 because they are not in scope at that point in the program. The stockOptions variable is only declared in the
+Director class, so it cannot be accessed before the Director object is created.
+2. Will the code compile? If yes, determine the output. If no, state why. (3 pts.)
+The code will compile and output: Pet
+The Cat constructor calls the Pet constructor with an integer argument. However, because the Cat class doesn't have a Pet constructor, the code will simply call the
+default constructor of the Pet class, which outputs "Pet".
